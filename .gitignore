@@ -5,8 +5,8 @@
 .vagrant/
 
 # Ignore all logfiles and tempfiles.
-app/log/*.log
-app/tmp
+app/log/**
+app/tmp/**
 
 # MacOS X
 .DS_Store
