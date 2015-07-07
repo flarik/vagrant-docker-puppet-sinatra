@@ -1,0 +1,15 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore vagrant
+.vagrant/
+
+# Ignore all logfiles and tempfiles.
+app/log/*.log
+app/tmp
+
+# MacOS X
+.DS_Store
+
+# vim
+*.un~
