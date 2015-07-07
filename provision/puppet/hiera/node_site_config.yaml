@@ -1,0 +1,15 @@
+---
+
+:backends:
+  - yaml
+  - json
+
+:yaml:
+  :datadir: "/vagrant/provision/puppet/hiera"
+
+:json:
+  :datadir: "/vagrant/provision/puppet/hiera"
+
+:hierarchy:
+  - common
+  - node_site_data
